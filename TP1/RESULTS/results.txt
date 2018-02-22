@@ -1,0 +1,34 @@
+Prediction = Lemme :
+Sur les 20 fichiers gz de l'ensemble de Test
+
+Identical words : 5023366
+Different words : 951285
+Percentage : 84.07798212816112
+
+(9.22 s)
+
+
+
+Prediction = most frequent word associated to Lemme : 
+En utilisant uniquement 100 fichiers .gz de l'ensemble d'apprentissage
+Sur les 20 fichiers gz de l'ensemble de Test
+
+Identical words : 5238536
+Different words : 736115
+Percentage : 87.67936403314603
+
+(133.42 s)
+
+
+
+Prediction = most frequent word associated to Lemme : 
+En utilisant les 1500 fichiers .gz de l'ensemble d'apprentissage
+Sur les 20 fichiers gz de l'ensemble de Test
+
+Identical words : 5251368
+Different words : 683325
+Percentage : 88.48592505122001
+
+(1370.29 s)
+
+
