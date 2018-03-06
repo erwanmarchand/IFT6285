@@ -32,3 +32,18 @@ Percentage : 88.48592505122001
 (1370.29 s)
 
 
+
+Prediction = Using Bigram previous_prediction lemme : 
+En utilisant uniquement 100 fichiers .gz de l'ensemble d'apprentissage
+Sur les 20 fichiers gz de l'ensemble de Test
+
+Bigram found : 4509887
+Unigram found : 1320721
+No combinaison found : 104085
+Identical words : 5456854
+Different words : 477839
+Percentage : 91.94837879566812
+
+(337.51 s)
+
+

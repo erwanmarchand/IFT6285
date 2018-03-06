@@ -51,7 +51,7 @@ epochs = 100 # Number of epochs to train for.
 latent_dim = 256  # Latent dimensionality of the encoding space.
 num_samples = 2000  # Number of samples to train on.
 # Path to the data txt file on disk.
-data_path = 'test/test.txt'
+data_path = 'fra-eng/fra.txt'
 
 # Vectorize the data.
 input_texts = []
@@ -137,7 +137,7 @@ model = Model([encoder_inputs, decoder_inputs], decoder_outputs)
 
 # Run training
 model.compile(optimizer='rmsprop', loss='categorical_crossentropy')
-model.fit([encoder_input_data, decoder_input_data], decoder_target_data,
+domodel.fit([encoder_input_data, decoder_input_data], decoder_target_data,
           batch_size=batch_size,
           epochs=epochs,
           validation_split=0.2)
