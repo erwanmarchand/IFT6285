@@ -1,11 +1,32 @@
 Prediction = Lemme :
 Sur les 20 fichiers gz de l'ensemble de Test
 
+Trigram found : 0
+Bigram found : 0
+Unigram found : 0
+No combinaison found : 5934693
 Identical words : 5023366
-Different words : 951285
-Percentage : 84.07798212816112
+Different words : 911327
+Percentage : 84.64407510211565
+Done
 
-(9.22 s)
+(19.18 s)
+
+
+
+Prediction = most frequent word associated to Lemme : 
+En utilisant uniquement 20 fichiers .gz de l'ensemble d'apprentissage
+Sur les 20 fichiers gz de l'ensemble de Test
+
+Trigram found : 0
+Bigram found : 0
+Unigram found : 5779311
+No combinaison found : 155382
+Identical words : 5231960
+Different words : 702733
+Percentage : 88.15889886806276
+
+(58.17 s)
 
 
 
@@ -34,9 +55,26 @@ Percentage : 88.48592505122001
 
 
 Prediction = Using Bigram previous_prediction lemme : 
+En utilisant uniquement 20 fichiers .gz de l'ensemble d'apprentissage
+Sur les 20 fichiers gz de l'ensemble de Test
+
+Trigram found : 0
+Bigram found : 4204895
+Unigram found : 1574416
+No combinaison found : 155382
+Identical words : 5434385
+Different words : 500308
+Percentage : 91.56977454436144
+
+(99.02s)
+
+
+
+Prediction = Using Bigram previous_prediction lemme : 
 En utilisant uniquement 100 fichiers .gz de l'ensemble d'apprentissage
 Sur les 20 fichiers gz de l'ensemble de Test
 
+Trigram found : 0
 Bigram found : 4509887
 Unigram found : 1320721
 No combinaison found : 104085
@@ -45,5 +83,21 @@ Different words : 477839
 Percentage : 91.94837879566812
 
 (337.51 s)
+
+
+
+Prediction = Using Trigram previousprevious_previous_prediction lemme : 
+En utilisant uniquement 20 fichiers .gz de l'ensemble d'apprentissage
+Sur les 20 fichiers gz de l'ensemble de Test
+
+Trigram found : 2036580
+Bigram found : 2166272
+Unigram found : 1576459
+No combinaison found : 155382
+Identical words : 5444033
+Different words : 490660
+Percentage : 91.73234403194908
+
+(171.46 s)
 
 

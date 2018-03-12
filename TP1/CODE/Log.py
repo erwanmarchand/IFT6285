@@ -38,7 +38,7 @@ class Log:
             msg = msg.encode(encoding, "backslashreplace").decode(encoding)
 
         if platform.system() == "Windows":
-            stream.write('[' + str(round(time.clock(), 2)) + ']' + " %s\n" % msg)
+            stream.write('{:>9}'.format('[' + str(round(time.clock(), 2)) + ']') + " %s\n" % msg)
         else:
             COLOR = "31m" if level in [WARN, ERROR, FATAL] else "0m"
             COLOR = "34m" if level in [INFO] else "0m"
